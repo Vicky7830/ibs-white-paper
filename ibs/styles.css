@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.3); /* Transparent background using rgba */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* Card container */
+.container {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent card background */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    max-width: 600px;
+    width: 90%;
+}
+@keyframes animateBorderRadius {
+    0% { border-radius: 10px; }
+    100% { border-radius: 30px; }
+}
+
+@keyframes changeBackgroundColor {
+    0% { background-color: rgba(255, 255, 255, 0.8); }
+    100% { background-color: rgba(240, 240, 240, 0.8); }
+}
+
+.hidden { display: none; }
+
+.content-card {
+    background-color: rgba(249, 249, 249, 0.9); /* Slightly transparent card */
+    padding: 2vw; /* Responsive padding */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-card ol {
+    list-style: decimal inside;
+    text-align: left;
+}
+
+.nav-btn {
+    background-color: #1d5b38;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+#logo {
+    width: 20vw; /* Responsive logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#toc-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#toc-list a:hover {
+    text-decoration: underline;
+}
+
+h1, p {
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 2rem;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    #logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .nav-btn {
+        width: 100%;
+    }
+
+    #toc-list {
+        font-size: 14px;
+    }
+}
+.line-Roles{
+    margin-right: 60%;
+}
+
+.line-Roless{
+    margin-right: 55%;
+}
+.line-Rolesss{
+    margin-right: 70%;
+}
+.line-Rolessss{
+    margin-right:60%;
+}
+.line-Role{
+    margin-right: 50%;
+    
+
+}
+
+
+.link {
+    color: blue; /* Change link text color */
+   
+
+    text-decoration: none; /* Remove underline */
+
+
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+
+  .line-Rolee{
+    margin-right: 35%;
+  }
+  .line-Roleee{
+    margin-right: 15%;
+  }
+
+
+  h11 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .risks-section {
+    margin-top: 20px;
+  }
+  
+  .risk {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
